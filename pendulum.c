@@ -131,7 +131,7 @@ int main() {
 		cpgsci(3);
 		cpgline(N, x1vals, y1vals);
 		// draw the second pendulum
-		cpgsci(1)
+		cpgsci(1);
 		cpgline(N, x2vals, y2vals);
 		cpgend();
 		sprintf(fname, "output/pgplot%d.png", count++);
